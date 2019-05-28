@@ -1,0 +1,6 @@
+framework module LLCustomPageView {
+  umbrella header "LLCustomPageView-umbrella.h"
+
+  export *
+  module * { export * }
+}

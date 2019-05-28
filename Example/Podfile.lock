@@ -1,0 +1,16 @@
+PODS:
+  - LLCustomPageView (0.1.0)
+
+DEPENDENCIES:
+  - LLCustomPageView (from `../`)
+
+EXTERNAL SOURCES:
+  LLCustomPageView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LLCustomPageView: aba4b368446a19bfb70ca9c0f4e54e913f4137c1
+
+PODFILE CHECKSUM: 25bd07bedae8ffe99f90d0ec60145ec0a584e498
+
+COCOAPODS: 1.6.1
