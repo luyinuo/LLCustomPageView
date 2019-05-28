@@ -7,9 +7,9 @@
 //
 
 #import "LLViewController.h"
-
+#import <LLCustomPageView.h>
 @interface LLViewController ()
-@property (nonatomic,strong) CustomPageView *pageView;
+@property (nonatomic,strong) LLCustomPageView *pageView;
 @property (nonatomic,strong) NSArray *imageArray;
 @end
 
@@ -24,7 +24,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.pageView = [CustomPageView pageViewWithFrame:self.view.bounds];
+    self.pageView = [LLCustomPageView pageViewWithFrame:self.view.bounds];
     self.pageView.contentMode = UIViewContentModeScaleAspectFit;
     self.pageView.imageArray = self.imageArray;
     [self.view addSubview:self.pageView];

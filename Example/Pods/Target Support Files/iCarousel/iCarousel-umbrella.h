@@ -10,8 +10,8 @@
 #endif
 #endif
 
-#import "LLCustomPageView.h"
+#import "iCarousel.h"
 
-FOUNDATION_EXPORT double LLCustomPageViewVersionNumber;
-FOUNDATION_EXPORT const unsigned char LLCustomPageViewVersionString[];
+FOUNDATION_EXPORT double iCarouselVersionNumber;
+FOUNDATION_EXPORT const unsigned char iCarouselVersionString[];
 

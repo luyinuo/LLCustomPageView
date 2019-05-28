@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "LLCustomPageView/Classes/**/*"
+  "source_files": "LLCustomPageView/Classes/**/*",
+  "dependencies": {
+    "iCarousel": [
+      "~> 1.8.3"
+    ]
+  }
 }

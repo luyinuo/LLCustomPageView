@@ -1,15 +1,22 @@
 PODS:
-  - LLCustomPageView (0.1.0)
+  - iCarousel (1.8.3)
+  - LLCustomPageView (0.1.0):
+    - iCarousel (~> 1.8.3)
 
 DEPENDENCIES:
   - LLCustomPageView (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - iCarousel
 
 EXTERNAL SOURCES:
   LLCustomPageView:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LLCustomPageView: aba4b368446a19bfb70ca9c0f4e54e913f4137c1
+  iCarousel: d782f635afac190c49bb8ee455882284cff8b85f
+  LLCustomPageView: 14dc935d755aaeeb0c4a5e0db0240f080a355872
 
 PODFILE CHECKSUM: 25bd07bedae8ffe99f90d0ec60145ec0a584e498
 

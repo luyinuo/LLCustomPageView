@@ -123,7 +123,7 @@
 }
 - (CATransform3D)carousel:(iCarousel *)carousel itemTransformForOffset:(CGFloat)offset baseTransform:(CATransform3D)transform
 {
-    transform.m34=-3/2000;//透视效果
+    transform.m34 = -1/500;//透视效果
     double angle = 0;
     double translateZ = -1;
     NSArray *visibleViews = [carousel visibleItemViews];
@@ -142,7 +142,6 @@
     if (offset >=-1 && offset <= 0) {
         angle = -M_PI * offset ;
         translateZ = offset;
-        
     }else if(offset < -1){
         angle = -M_PI;
     }
@@ -200,7 +199,7 @@
         UIImageView *imageViewFront = [UIImageView new];
         imageViewFront.contentMode = self.contentMode;
         [view addSubview:imageViewFront];
-        imageViewFront.frame = CGRectMake(-0.5, 0, self.bounds.size.width * 0.5+0.5, self.bounds.size.height);
+        imageViewFront.frame = CGRectMake(0, 0, self.bounds.size.width * 0.5, self.bounds.size.height);
         imageViewFront.image = self.dataSource[index*2+1];
         
     }
