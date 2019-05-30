@@ -1,4 +1,9 @@
-## CustomPageView
+
+[![CI Status](https://img.shields.io/travis/luyinuo/LLCustomPageView.svg?style=flat)](https://travis-ci.org/luyinuo/LLCustomPageView)
+[![Version](https://img.shields.io/cocoapods/v/LLCustomPageView.svg?style=flat)](https://cocoapods.org/pods/LLCustomPageView)
+[![License](https://img.shields.io/cocoapods/l/LLCustomPageView.svg?style=flat)](https://cocoapods.org/pods/LLCustomPageView)
+[![Platform](https://img.shields.io/cocoapods/p/LLCustomPageView.svg?style=flat)](https://cocoapods.org/pods/LLCustomPageView)
+## LLCustomPageView
 * 自定义实现UIPageViewController,location-Mid翻页效果
 
 ## 内容简介
@@ -11,20 +16,12 @@
 * 由于项目中新增绘本的需求，需要实现类似书本翻页的效果，系统控件UIPageViewController自带书本翻页的功能，且支持，左轴，中轴，右轴三种效果，且带有折叠阴影等效果，但是需求却不需要折叠阴影，趋向于硬质的图片相册翻页效果，调研系统的UIPageViewController并不支持高度自定义相关的功能，于是自己动手写了一个轮子；轮子中用到了第三方的iCarousel库，这个库主要帮助处理滚动的位移的相关计算，使我不用操心元素的位移，把重点放在元素的transform的处理上。
 
 ## <a id="how_to_use"></a>如何使用
-* 工程依赖第三方库iCarousel,需要先在podfile文件中添加引用：
+* LLCustomPageView is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
 
-	```
-	# Uncomment the next line to define a global platform for your project
-	# platform :ios, '9.0'
-	
-	target 'UIPageViewController-SpineLocationMid' do
-	  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
-	  # use_frameworks!
-	pod 'iCarousel', '~> 1.8.3'
-	  # Pods for UIPageViewController-SpineLocationMid
-	
-	end
-	```
+```ruby
+pod 'LLCustomPageView'
+```
 * 导入头文件CostomPageView.h到控制器中
 * 添加布局代码
 	
@@ -77,4 +74,10 @@
 }
 ```
 	 
+## Author
 
+luyinuo, yinuolu@163.com
+
+## License
+
+LLCustomPageView is available under the MIT license. See the LICENSE file for more info.
